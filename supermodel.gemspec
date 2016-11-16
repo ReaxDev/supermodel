@@ -42,6 +42,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{In memory DB using ActiveModel}
+  s.add_dependency(%q<rails-observers>, '~> 0.1.3.alpha')
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
